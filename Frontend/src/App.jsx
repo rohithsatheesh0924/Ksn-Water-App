@@ -10,6 +10,7 @@ import Support from "./pages/Support";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Register from "./pages/Register";
+import Settings from "./pages/Settings";
 
 /**
  * ScrollToTop Component
@@ -62,6 +63,7 @@ const AppContent = () => {
           <Route path="/billing" element={<Billing />} />
           <Route path="/profile" element={<Profile />} /> 
           <Route path="/support" element={<Support />} />
+          <Route path="/settings" element={<Settings />} />
         </Routes>
       </main>
 
